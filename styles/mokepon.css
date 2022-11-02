@@ -1,0 +1,95 @@
+body {
+    font-family: "Audiowide", sans-serif;
+    background-color: red;
+  }
+
+
+
+#seleccionar-mascota{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    color: white;
+    font-size: 32px;
+}
+
+.subtitulo{
+    color: white;
+    font-size: 24px;
+}
+
+.tarjetas{
+    display: flex;
+    gap: 10px;
+}
+
+.cards{
+    width: 180px;
+    height: 100px;
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards img{
+    width: 80px;
+}
+
+#boton-mascota{
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-top: 30px;
+    font-family: "Audiowide", sans-serif;
+}
+
+input{
+    display: none;
+}
+
+#seleccionar-ataque{
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-de-ataque{
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    width: 120px;
+    border-color: transparent;
+    font-family: "Audiowide", sans-serif;
+}
+
+#mensajes{
+    width: 280px;
+    background: blue;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    flex-direction: column;
+    font-family: "Audiowide", sans-serif;
+}
+
+#boton-reiniciar{
+    border: none;
+    color: red;
+}
